@@ -1,7 +1,7 @@
 package com.rsjinc.thefuture;
 
 public class TheFuture {
-	
+
 	public static void main(String[] args) {
 		System.out.print("Initiating voice ID");
 		for (int i = 0; i < 3; i++) {
@@ -14,9 +14,8 @@ public class TheFuture {
 		System.out.print("\rDone.              ");
 		System.exit(0);
 	}
-	
-	protected static void sleep(int ms)
-	{
+
+	protected static void sleep(int ms) {
 		try {
 			Thread.sleep(ms);
 		} catch (InterruptedException e) {
