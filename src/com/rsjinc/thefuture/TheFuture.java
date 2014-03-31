@@ -11,7 +11,7 @@ public class TheFuture {
 			}
 			System.out.print("\b\b\b   \b\b\b");
 		}
-		System.out.print("\rDone.              ");
+		System.out.println("\rDone.              ");
 		System.exit(0);
 	}
 
